@@ -61,6 +61,57 @@ const sistemas = [
       "Relatórios de recrutamento",
     ],
   },
+  {
+    id: 4,
+    name: "AestronTec",
+    title: "AestronTec - Plataforma Tecnológica Empresarial",
+    description:
+      "Sistema completo de gestão empresarial integrado. Módulos de vendas, estoque, financeiro, CRM e muito mais em uma única plataforma moderna e intuitiva.",
+    category: "Gestão Empresarial",
+    icon: "🏢",
+    status: "Em Produção",
+    features: [
+      "Gestão financeira completa",
+      "CRM integrado",
+      "Controle de vendas e estoque",
+      "Emissão de notas fiscais",
+      "Relatórios gerenciais",
+    ],
+  },
+  {
+    id: 5,
+    name: "BarberTron",
+    title: "BarberTron - Sistema para Barbearias",
+    description:
+      "Software especializado para gestão de barbearias e salões. Agendamento online, controle de caixa, comissões, produtos e fidelização de clientes.",
+    category: "Gestão de Salões",
+    icon: "💈",
+    status: "Em Produção",
+    features: [
+      "Agendamento online inteligente",
+      "Controle de caixa e comissões",
+      "Gestão de produtos e serviços",
+      "Programa de fidelidade",
+      "App para clientes",
+    ],
+  },
+  {
+    id: 6,
+    name: "SweetFlow",
+    title: "SweetFlow - Sistema para Confeitarias",
+    description:
+      "Solução completa para gestão de confeitarias e doceiras. Controle de pedidos, produção, estoque de ingredientes, vendas e delivery integrado.",
+    category: "Gestão de Confeitarias",
+    icon: "🍰",
+    status: "Em Produção",
+    features: [
+      "Gestão de pedidos e encomendas",
+      "Controle de produção",
+      "Estoque de ingredientes",
+      "Catálogo digital de produtos",
+      "Integração com delivery",
+    ],
+  },
 ];
 
 export default function ProjetosPage() {

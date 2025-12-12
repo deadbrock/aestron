@@ -268,6 +268,261 @@ Principais benefícios:
       },
     ],
   },
+  4: {
+    id: 4,
+    name: "AestronTec",
+    title: "AestronTec - Plataforma Tecnológica Empresarial",
+    description:
+      "Sistema completo de gestão empresarial integrado. Módulos de vendas, estoque, financeiro, CRM e muito mais em uma única plataforma moderna e intuitiva.",
+    category: "Gestão Empresarial",
+    icon: "🏢",
+    fullDescription: `O AestronTec é uma plataforma completa de gestão empresarial que integra todos os setores da sua empresa em um único sistema.
+
+Com módulos integrados e interface moderna, o AestronTec oferece controle total sobre vendas, estoque, financeiro, relacionamento com clientes e muito mais.
+
+Principais benefícios:
+- Integração completa entre todos os setores
+- Redução de retrabalho e erros
+- Visão 360º do negócio
+- Automação de processos
+- Decisões baseadas em dados em tempo real`,
+    features: [
+      "Gestão financeira completa com contas a pagar e receber",
+      "CRM integrado para gestão de clientes e oportunidades",
+      "Controle de vendas com PDV e e-commerce",
+      "Gestão de estoque com múltiplos depósitos",
+      "Emissão de notas fiscais eletrônicas",
+      "Relatórios gerenciais e dashboards personalizados",
+      "Gestão de compras e fornecedores",
+      "Controle de projetos e tarefas",
+    ],
+    technologies: ["React", "Node.js", "PostgreSQL", "AWS", "TypeScript", "Redis"],
+    pricingOptions: [
+      {
+        id: "licenca-permanente",
+        name: "Licença Permanente",
+        description: "Adquira a licença completa do sistema",
+        price: "Sob Consulta",
+        features: [
+          "Licença permanente do sistema",
+          "Instalação e configuração inicial",
+          "Treinamento da equipe (até 15 usuários)",
+          "Suporte técnico por 1 ano",
+          "Atualizações de segurança",
+          "Documentação completa",
+        ],
+        popular: false,
+        ctaText: "Solicitar Orçamento",
+        ctaLink: "/contato",
+      },
+      {
+        id: "assinatura-mensal",
+        name: "Assinatura Mensal",
+        description: "Acesso completo com pagamento mensal",
+        price: "A partir de R$ 499",
+        period: "/mês",
+        features: [
+          "Acesso completo ao sistema",
+          "Suporte técnico 24/7",
+          "Atualizações automáticas",
+          "Backup diário na nuvem",
+          "Até 15 usuários simultâneos",
+          "Cancelamento sem multa",
+        ],
+        popular: true,
+        ctaText: "Assinar Agora",
+        ctaLink: "/contato",
+      },
+      {
+        id: "assinatura-empresarial",
+        name: "Assinatura Empresarial",
+        description: "Para empresas com maior demanda",
+        price: "Sob Consulta",
+        period: "/mês",
+        features: [
+          "Acesso completo ao sistema",
+          "Usuários ilimitados",
+          "Suporte técnico prioritário",
+          "Personalizações inclusas",
+          "Integrações customizadas",
+          "Gerente de conta dedicado",
+        ],
+        popular: false,
+        ctaText: "Falar com Vendas",
+        ctaLink: "/contato",
+      },
+    ],
+  },
+  5: {
+    id: 5,
+    name: "BarberTron",
+    title: "BarberTron - Sistema para Barbearias",
+    description:
+      "Software especializado para gestão de barbearias e salões. Agendamento online, controle de caixa, comissões, produtos e fidelização de clientes.",
+    category: "Gestão de Salões",
+    icon: "💈",
+    fullDescription: `O BarberTron é um sistema especializado para barbearias e salões de beleza que desejam profissionalizar sua gestão e oferecer a melhor experiência aos clientes.
+
+Com agendamento online integrado, controle financeiro completo e ferramentas de fidelização, o BarberTron ajuda seu negócio a crescer de forma sustentável.
+
+Principais benefícios:
+- Redução de faltas com lembretes automáticos
+- Aumento da receita com programa de fidelidade
+- Controle preciso de comissões
+- Gestão de produtos e serviços
+- Aplicativo exclusivo para clientes`,
+    features: [
+      "Agendamento online inteligente com confirmação automática",
+      "Controle de caixa e fechamento diário",
+      "Cálculo automático de comissões",
+      "Gestão de produtos e controle de estoque",
+      "Programa de fidelidade e cashback",
+      "App exclusivo para clientes agendarem",
+      "Relatórios de desempenho por profissional",
+      "Integração com WhatsApp para lembretes",
+    ],
+    technologies: ["React", "Node.js", "MongoDB", "AWS", "React Native"],
+    pricingOptions: [
+      {
+        id: "licenca-permanente",
+        name: "Licença Permanente",
+        description: "Adquira a licença completa do sistema",
+        price: "Sob Consulta",
+        features: [
+          "Licença permanente do sistema",
+          "Instalação e configuração inicial",
+          "Treinamento da equipe (até 8 usuários)",
+          "Suporte técnico por 1 ano",
+          "Atualizações de segurança",
+          "Documentação completa",
+        ],
+        popular: false,
+        ctaText: "Solicitar Orçamento",
+        ctaLink: "/contato",
+      },
+      {
+        id: "assinatura-mensal",
+        name: "Assinatura Mensal",
+        description: "Acesso completo com pagamento mensal",
+        price: "A partir de R$ 149",
+        period: "/mês",
+        features: [
+          "Acesso completo ao sistema",
+          "Suporte técnico 24/7",
+          "Atualizações automáticas",
+          "Backup diário na nuvem",
+          "Até 5 profissionais",
+          "Cancelamento sem multa",
+        ],
+        popular: true,
+        ctaText: "Assinar Agora",
+        ctaLink: "/contato",
+      },
+      {
+        id: "assinatura-empresarial",
+        name: "Assinatura Empresarial",
+        description: "Para redes de barbearias",
+        price: "Sob Consulta",
+        period: "/mês",
+        features: [
+          "Acesso completo ao sistema",
+          "Profissionais ilimitados",
+          "Suporte técnico prioritário",
+          "Personalizações inclusas",
+          "Múltiplas unidades",
+          "Gerente de conta dedicado",
+        ],
+        popular: false,
+        ctaText: "Falar com Vendas",
+        ctaLink: "/contato",
+      },
+    ],
+  },
+  6: {
+    id: 6,
+    name: "SweetFlow",
+    title: "SweetFlow - Sistema para Confeitarias",
+    description:
+      "Solução completa para gestão de confeitarias e doceiras. Controle de pedidos, produção, estoque de ingredientes, vendas e delivery integrado.",
+    category: "Gestão de Confeitarias",
+    icon: "🍰",
+    fullDescription: `O SweetFlow é um sistema desenvolvido especialmente para confeitarias, doceiras e cake designers que desejam organizar e profissionalizar seu negócio.
+
+Com controle completo de pedidos, produção, ingredientes e vendas, o SweetFlow ajuda você a focar no que faz de melhor: criar doces incríveis.
+
+Principais benefícios:
+- Organização completa de encomendas
+- Controle preciso de custos e lucros
+- Gestão de ingredientes e receitas
+- Catálogo digital profissional
+- Integração com delivery e redes sociais`,
+    features: [
+      "Gestão de pedidos e encomendas com calendário",
+      "Controle de produção e lista de tarefas",
+      "Estoque de ingredientes com alertas de reposição",
+      "Catálogo digital de produtos com fotos",
+      "Cálculo automático de custos por receita",
+      "Integração com delivery e WhatsApp",
+      "Gestão de clientes e histórico de pedidos",
+      "Relatórios de vendas e produtos mais vendidos",
+    ],
+    technologies: ["React", "Node.js", "MongoDB", "AWS", "TypeScript"],
+    pricingOptions: [
+      {
+        id: "licenca-permanente",
+        name: "Licença Permanente",
+        description: "Adquira a licença completa do sistema",
+        price: "Sob Consulta",
+        features: [
+          "Licença permanente do sistema",
+          "Instalação e configuração inicial",
+          "Treinamento da equipe (até 5 usuários)",
+          "Suporte técnico por 1 ano",
+          "Atualizações de segurança",
+          "Documentação completa",
+        ],
+        popular: false,
+        ctaText: "Solicitar Orçamento",
+        ctaLink: "/contato",
+      },
+      {
+        id: "assinatura-mensal",
+        name: "Assinatura Mensal",
+        description: "Acesso completo com pagamento mensal",
+        price: "A partir de R$ 99",
+        period: "/mês",
+        features: [
+          "Acesso completo ao sistema",
+          "Suporte técnico 24/7",
+          "Atualizações automáticas",
+          "Backup diário na nuvem",
+          "Até 3 usuários simultâneos",
+          "Cancelamento sem multa",
+        ],
+        popular: true,
+        ctaText: "Assinar Agora",
+        ctaLink: "/contato",
+      },
+      {
+        id: "assinatura-empresarial",
+        name: "Assinatura Empresarial",
+        description: "Para confeitarias maiores",
+        price: "Sob Consulta",
+        period: "/mês",
+        features: [
+          "Acesso completo ao sistema",
+          "Usuários ilimitados",
+          "Suporte técnico prioritário",
+          "Personalizações inclusas",
+          "Múltiplas unidades",
+          "Gerente de conta dedicado",
+        ],
+        popular: false,
+        ctaText: "Falar com Vendas",
+        ctaLink: "/contato",
+      },
+    ],
+  },
 };
 
 export default function SistemaDetailPage({

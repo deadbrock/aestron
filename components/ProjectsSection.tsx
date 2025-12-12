@@ -5,28 +5,28 @@ import Link from "next/link";
 
 const projects = [
   {
-    id: 1,
-    title: "Pegasus - Gestão Logística",
+    id: 4,
+    title: "AestronTec",
     description:
-      "Solução completa para gestão logística empresarial. Controle de estoque, rastreamento de entregas e otimização de rotas.",
-    category: "Gestão Logística",
-    icon: "🚚",
+      "Plataforma completa de gestão empresarial. Vendas, estoque, financeiro, CRM e muito mais integrados.",
+    category: "Gestão Empresarial",
+    icon: "🏢",
   },
   {
-    id: 2,
-    title: "FGS - Gestão de RH",
+    id: 5,
+    title: "BarberTron",
     description:
-      "Plataforma completa para gestão de recursos humanos. Controle de ponto, folha de pagamento e avaliações de desempenho.",
-    category: "Recursos Humanos",
-    icon: "👥",
+      "Sistema especializado para barbearias. Agendamento online, controle de caixa, comissões e fidelização.",
+    category: "Gestão de Salões",
+    icon: "💈",
   },
   {
-    id: 3,
-    title: "Gestão de Candidatos",
+    id: 6,
+    title: "SweetFlow",
     description:
-      "Solução completa para recrutamento e seleção. Gestão de vagas, triagem de currículos e agendamento de entrevistas.",
-    category: "Recrutamento",
-    icon: "📋",
+      "Solução para confeitarias. Controle de pedidos, produção, ingredientes e catálogo digital.",
+    category: "Gestão de Confeitarias",
+    icon: "🍰",
   },
 ];
 
